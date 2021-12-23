@@ -3,7 +3,7 @@
 }
 
 
-#logoname{
+#title{
     color: rgb(57, 123, 199);
     font-family:'Trebuchet MS';
     font-size: 32px;
@@ -30,6 +30,7 @@ body{
 
 #navigation{
     text-align: center;
+    margin-top: 1em;
 }
 
 #navigation a:hover{
