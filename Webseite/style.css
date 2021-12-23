@@ -1,0 +1,47 @@
+#logo{
+    text-align:center;
+}
+
+
+#logoname{
+    color: rgb(57, 123, 199);
+    font-family:'Trebuchet MS';
+    font-size: 32px;
+    font-weight:lighter;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+    background-image: url("image.jpg");
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+#navigation a {
+    color: rgb(209, 136, 26);
+    font-family:'Segoe UI';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    
+}
+
+#navigation{
+    text-align: center;
+}
+
+#navigation a:hover{
+    color: rgb(231, 235, 12);
+}
+
+#main{
+    color: rgb(231, 235, 12);
+    font-family:'Trebuchet MS';
+    font-weight:lighter;
+    font-size: 15px;
+    padding-top: 200px;
+}
+
+    
