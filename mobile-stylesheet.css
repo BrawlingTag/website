@@ -1,0 +1,59 @@
+#logo {
+    text-align: center;
+}
+#title {
+    color: rgb(6, 36, 70);
+    font-family:'Trebuchet MS';
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    width: auto;
+    height: 100%;
+    background-color: rgb(54, 54, 54);
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-clip: content-box;
+}
+#navigation a {
+    margin-top: 1em;
+    display: inline;
+    color: rgb(150, 0, 105);
+    font-family:'Segoe UI';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    
+}
+#navigation{
+    text-align: center;
+    margin-top: 1em;
+}
+
+#navigation a:hover{
+    color: rgb(231, 235, 12);
+}
+
+#main{
+    display: grid;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #000000;
+    align-items: bottom;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+    font-size: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 1.2em;
+    padding-left: 0.5em;
+    border-radius: 7px;
+    margin-top: 140%;
+    margin-left: -2.3%;
+}
