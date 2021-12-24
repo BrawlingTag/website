@@ -38,11 +38,24 @@ body{
 }
 
 #main{
-    color: rgb(231, 235, 12);
+    color: #ffffff;
+    width: 100%;
+    display: grid;
+    background-color: #000000;
     font-family:'Trebuchet MS';
-    font-weight:lighter;
-    font-size: 15px;
-    padding-top: 200px;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5.5px;
+    position: fixed;
+    margin-top: 37.2%;
+    margin-left: -0.39999%;
 }
-
-    
+#Main {
+    margin-left: 10%;
+}
+#Foo {
+    margin-left: 13%;
+}
