@@ -2,7 +2,6 @@
     text-align:center;
 }
 
-
 #title{
     color: rgb(57, 123, 199);
     font-family:'Trebuchet MS';
@@ -17,6 +16,7 @@ body{
     background-size:cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
+    grid-template: 3 3 auto;
 }
 
 #navigation a {
@@ -50,7 +50,7 @@ body{
     padding-left: 10px;
     padding-right: 5.5px;
     position: fixed;
-    margin-top: 37.2%;
+    margin-top: 19.7%;
     margin-left: -0.39999%;
 }
 #Main {
@@ -58,4 +58,16 @@ body{
 }
 #Foo {
     margin-left: 13%;
+}
+#address {
+    font-family: 'Trebuchet MS';
+    font-weight: 700;
+    color: #0958c0;
+    font-size: 1.5em;
+    text-align: center;
+    justify-self: center;
+    margin-top: 0.5em;
+}
+#address-qrcode {
+    margin-left: 43.5%;
 }
